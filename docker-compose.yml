@@ -1,0 +1,14 @@
+version: '3'
+services:
+  spark:
+    image: markwatsonatx/spark-notebook-ml:2.1.1    
+    volumes:
+      - ./data:/usr/data
+      - ./notebooks:/usr/notebooks
+    ports:
+      - "38889:8889"
+    environment:
+      - WML_SERVICE_PATH=${WML_SERVICE_PATH}
+      - WML_USERNAME=${WML_USERNAME}
+      - WML_PASSWORD=${WML_PASSWORD}
+      - WML_INSTANCE_ID=${WML_INSTANCE_ID}
