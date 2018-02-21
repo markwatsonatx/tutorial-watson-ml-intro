@@ -1,7 +1,7 @@
 version: '3'
 services:
   spark:
-    image: markwatsonatx/spark-notebook-ml:2.1.1    
+    image: markwatsonatx/spark-notebook-ml:2.2.1    
     volumes:
       - ./data:/usr/data
       - ./notebooks:/usr/notebooks
