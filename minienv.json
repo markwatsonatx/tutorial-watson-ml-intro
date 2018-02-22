@@ -1,11 +1,14 @@
 {
   "env": {
-    "vars": {
-      "WML_SERVICE_PATH": "https://ibm-watson-ml.mybluemix.net",
-      "WML_USERNAME": "",
-      "WML_PASSWORD": "",
-      "WML_INSTANCE_ID": ""
-    }
+    "vars": [
+      {
+        "name": "WML_SERVICE_PATH",
+        "defaultValue": "https://ibm-watson-ml.mybluemix.net"
+      },
+      { "name": "WML_USERNAME" },
+      { "name": "WML_PASSWORD" },
+      { "name": "WML_INSTANCE_ID" }
+    ]
   },
   "editor" : {
     "hide": false,
