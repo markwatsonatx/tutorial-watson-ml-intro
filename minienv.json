@@ -1,4 +1,12 @@
 {
+  "env": {
+    "vars": {
+      "WML_SERVICE_PATH": "https://ibm-watson-ml.mybluemix.net",
+      "WML_USERNAME": "",
+      "WML_PASSWORD": "",
+      "WML_INSTANCE_ID": ""
+    }
+  },
   "editor" : {
     "hide": false,
     "srcDir": "data" 
