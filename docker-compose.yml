@@ -3,7 +3,7 @@ services:
   spark:
     image: markwatsonatx/spark-notebook-ml:2.2.1    
     volumes:
-      - ./data:/usr/data
+      - ./src/data:/usr/data
       - ./notebooks:/usr/notebooks
     ports:
       - "38889:8889"

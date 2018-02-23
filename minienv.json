@@ -12,7 +12,7 @@
   },
   "editor" : {
     "hide": false,
-    "srcDir": "data" 
+    "srcDir": "src" 
   },
   "proxy": {
     "ports": [
