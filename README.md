@@ -21,4 +21,4 @@ docker-compose up -d
 
 After running `docker-compose up -d` you can access the sample notebook at [http://DOCKER-HOST-IP:38889/notebooks/HousePrices.ipynb](http://localhost:38889/notebooks/HousePrices.ipynb).
 
-You can access the sample Node.js application at [http://DOCKER-HOST-IP:33000](http://DOCKER-HOST-IP:33000).
+You can access the sample Node.js application at [http://DOCKER-HOST-IP:33000](http://localhost:33000).
